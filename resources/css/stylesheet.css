@@ -62,6 +62,28 @@ h2{
   color: hsl(0, 0%, 50%);
 }
 
+.one_mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 500px){
+
+.one_left, .one_right {
+display: none;
+}
+
+
+.one_mobile{
+  display: flex;
+  background-color: white;
+  height: 4rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+}
+
 
 .two {
   display: flex;
@@ -102,6 +124,35 @@ h2{
   padding: 0.67rem 0;
   width: 100%;
 }
+
+
+@media only screen and (max-width: 500px){
+
+.two{
+  display: block;
+  padding: 0;
+}
+
+.two_left{
+  width: 100%;
+}
+
+.two_right{
+  padding: 2rem 1rem;
+}
+
+.two_rightcontainer{
+  width: 100%;
+}
+
+.two_line2{
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+}
+
+
 
 .three{
   display: flex;
@@ -175,6 +226,60 @@ h2{
   font-weight: 400;
 }
 
+.three_right_image_mobile{
+  display: none;
+}
+
+.special_mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 500px){
+
+  .three{
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .three_left{
+    display: none;
+  }
+
+  .three_right{
+    width: 100%;
+  }
+
+  .three_right_box{
+    display: block;
+  }
+
+  .three_right_text{
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .three_right_image{
+    display: none;
+  }
+
+  .three_right_image_mobile{
+      display: block;
+  }
+
+  .three_right_image_mobile img{
+    width: 100%;
+  }
+
+  .special{
+    display: none;
+  }
+
+  .special_mobile{
+    display: block;
+  }
+
+}
+
+
 
 .four {
   background-color: lightgray;
@@ -212,7 +317,7 @@ h2{
 .four_box_text{
   padding: 1rem 1rem 1.5rem 1rem;
   background-color: white;
-  height: 7rem;
+  height: 8.5rem;
 }
 
 .four_box_text span{
@@ -221,6 +326,43 @@ h2{
 
 .four_box_text .COURSES{
   padding: 0.5rem 0;
+}
+
+.four_mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 500px){
+
+.four_box_line1, .four_box_line2{
+  display: none;
+}
+
+.four{
+  background-color: white;
+  padding: 2rem 1.5rem;
+}
+
+.four h1{
+  padding: 0 0 2rem 0;
+}
+
+.four_mobile {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 400;
+}
+
+.four_mobile a, li{
+  text-decoration: none;
+  padding: 1rem 0rem 1.5rem 1rem;
+  color: inherit;
+  background-color: lightgray;
+  margin-bottom: .5rem;
+}
+
+
 }
 
 
@@ -302,6 +444,29 @@ h2{
   height: auto;
 }
 
+@media only screen and (max-width: 500px){
+
+.five_lefttext, .five_right{
+  display: none;
+}
+
+.five_title{
+  padding-bottom: 1rem;
+}
+
+.five_left{
+  width: 100%;
+  padding: 0;
+}
+
+.five_video{
+  padding-bottom: 1.5rem;
+}
+
+}
+
+
+
 .six{
   border-top: .05rem solid lightgray;
   display: flex;
@@ -315,4 +480,18 @@ h2{
 .six_right a{
   text-decoration: none;
   color: inherit;
+}
+
+@media only screen and (max-width: 500px){
+
+.six{
+  padding: 1rem;
+  border-top: none; 
+}
+
+.six_right{
+  display: none;
+}
+
+
 }
