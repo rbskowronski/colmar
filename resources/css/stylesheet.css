@@ -348,7 +348,10 @@ display: none;
 .four_box_text a{
   text-decoration: none;
   color: black;
+}
 
+.four_box_text a:hover{
+  text-decoration: underline;
 }
 
 .four_box_text span{
@@ -474,6 +477,15 @@ display: none;
   width: 100%;
   height: auto;
 }
+
+.five_right_topbox_text a, .five_right_bottombox_text a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.five_right_topbox_text a:hover, .five_right_bottombox_text a:hover{
+  text-decoration: underline;
+
 
 @media only screen and (max-width: 500px){
 
