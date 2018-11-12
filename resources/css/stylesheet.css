@@ -15,9 +15,13 @@ h1{
 }
 
 h2{
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 2rem;
   font-weight: 400;
+}
+
+span, a{
+  font-size: 1.20rem;
 }
 
 .one{
@@ -54,6 +58,14 @@ h2{
 
 .one_right ul{
   display: flex;
+}
+
+.one_right a:hover{
+  background-color: lightgray;
+  color: black;
+  border-radius: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .one_right a{
@@ -119,10 +131,19 @@ display: none;
 
 .two_line3 {
   background-color: gray;
-  color: white;
   text-align: center;
   padding: 0.67rem 0;
   width: 100%;
+}
+
+.two_line3 a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+.two_line3:hover{
+  background-color: black;
 }
 
 
@@ -210,6 +231,10 @@ display: none;
 .three_right_text a{
   text-decoration: none;
   font-weight: 400;
+}
+
+.three_right_text a:hover{
+    text-decoration: underline;
 }
 
 .three_left_text {
@@ -318,6 +343,12 @@ display: none;
   padding: 1rem 1rem 1.5rem 1rem;
   background-color: white;
   height: 8.5rem;
+}
+
+.four_box_text a{
+  text-decoration: none;
+  color: black;
+
 }
 
 .four_box_text span{
@@ -486,7 +517,7 @@ display: none;
 
 .six{
   padding: 1rem;
-  border-top: none; 
+  border-top: none;
 }
 
 .six_right{
