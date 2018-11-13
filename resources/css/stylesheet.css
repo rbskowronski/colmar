@@ -485,7 +485,7 @@ display: none;
 
 .five_right_topbox_text a:hover, .five_right_bottombox_text a:hover{
   text-decoration: underline;
-
+}
 
 @media only screen and (max-width: 500px){
 
