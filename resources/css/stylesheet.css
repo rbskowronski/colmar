@@ -235,6 +235,7 @@ display: none;
 
 .three_right_text a:hover{
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .three_left_text {
@@ -350,8 +351,9 @@ display: none;
   color: black;
 }
 
-.four_box_text a:hover{
+.four_box_text h2:hover{
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .four_box_text span{
@@ -483,8 +485,9 @@ display: none;
   color: inherit;
 }
 
-.five_right_topbox_text a:hover, .five_right_bottombox_text a:hover{
+.five_right_topbox_text h2:hover, .five_right_bottombox_text h2:hover{
   text-decoration: underline;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 500px){
